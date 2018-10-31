@@ -1,26 +1,20 @@
 ---
-title: "IODS course project"
-Author: Rabbil Bhuiyan
-output:
-  html_document:
-    theme: cosmo
-    toc: true
-    toc_depth: 2
-    fig_caption: true
-    fig_width: 6
-    fig_height: 4
-    code_folding: hide
+title: "IODS project-lectureday1"
+author: "Rabbil Bhuiyan"
+date: "31 October 2018"
+output: html_document
 ---
 
-***
-  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
 ```{r child = "chapter1.Rmd"}
 The course is intended to learn different tools for analyzing data, particularly by using rstudio. All the tasks completed using R will be linked and stored in Github account. The course also uses Datacamp for excercising the R tools to learn it.
 https://github.com/bhuiyanluke/IODS-project/
-  
-***
-  
-```{r child = "chapter2.Rmd"}
+  ```{r child = "chapter2.Rmd"}
 - This week, from the begining of the lecture, I have learned using the Github and linked it to the rstudio. I had prior knowledge about rstudio but not in details. Linking the Github with rstudio was exciting. How to store the saved work in Github was very useful to me. The porcedure for storing the work in Github as follows:
 -I opened the Github account
 -Then fork it to the course repisotory as the instruction of the lecture
@@ -30,5 +24,8 @@ https://github.com/bhuiyanluke/IODS-project/
 -Then commited to master in Github desktop
 -Then I can see the changes in Github repisotory
 Finally I stored all the work done in Gitbub and other people can also see my work
+  
+summary(cars)
+```
 
-***
+

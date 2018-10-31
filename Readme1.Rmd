@@ -1,9 +1,9 @@
 ---
 title: "IODS course project"
-Author: Rabbil Bhuiyan
-output:
-  html_document:
-    theme: cosmo
+author: "Rabbil Bhuiyan"
+date: "31 October 2018"
+output: html_document
+theme: cosmo
     toc: true
     toc_depth: 2
     fig_caption: true
@@ -17,7 +17,7 @@ output:
 ```{r child = "chapter1.Rmd"}
 The course is intended to learn different tools for analyzing data, particularly by using rstudio. All the tasks completed using R will be linked and stored in Github account. The course also uses Datacamp for excercising the R tools to learn it.
 https://github.com/bhuiyanluke/IODS-project/
-  
+
 ***
   
 ```{r child = "chapter2.Rmd"}
@@ -31,4 +31,4 @@ https://github.com/bhuiyanluke/IODS-project/
 -Then I can see the changes in Github repisotory
 Finally I stored all the work done in Gitbub and other people can also see my work
 
-***
+
