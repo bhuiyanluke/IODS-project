@@ -1,4 +1,4 @@
 # Chapter-1
 
 The course is intended to learn different tools for analyzing data, particularly by using rstudio. All the tasks completed using R will be linked and stored in Github account. The course also uses Datacamp for excercising the R tools to learn it.
-https://github.com/bhuiyanluke/IODS-project/blob/master/chapter1.Rmd
+https://github.com/bhuiyanluke/IODS-project/
