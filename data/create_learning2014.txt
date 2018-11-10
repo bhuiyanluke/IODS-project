@@ -60,4 +60,3 @@ Scale of variables to original scale(# Access the dplyr library
   strategic_columns <- select(lrn14, one_of(strategic_questions))
   lrn14$stra <- rowMeans(strategic_columns)
 
-
