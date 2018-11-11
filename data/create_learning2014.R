@@ -59,4 +59,7 @@ Scale of variables to original scale(# Access the dplyr library
 # select the columns related to strategic learning and create column 'stra' by averaging
   strategic_columns <- select(lrn14, one_of(strategic_questions))
   lrn14$stra <- rowMeans(strategic_columns)
+```{r}
+
+```
 
