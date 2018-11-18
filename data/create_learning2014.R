@@ -13,6 +13,7 @@ str(lrn14)
 #Output of the codes
 #183 observations and 60 variables were found
 
+
 ##########################
 # access the dplyr library
 library(dplyr)
@@ -59,7 +60,28 @@ Scale of variables to original scale(# Access the dplyr library
 # select the columns related to strategic learning and create column 'stra' by averaging
   strategic_columns <- select(lrn14, one_of(strategic_questions))
   lrn14$stra <- rowMeans(strategic_columns)
-```{r}
+#saving the dataset as csv-file in IODS-project
 
-```
-
+  # Setting the working directory of this R session to the IODS project folder.
+  
+  setwd("~/GitHub/IODS-project")
+  
+  
+  
+  # Saving the dataset to the "data"-folder
+  
+  write.csv(learning2014, file="~/GitHub/IODS-project/data/learning2014.csv", row.names=FALSE)
+  
+  
+  
+  # Demonstrating the opening of the data
+  
+  demonstration <- read.csv("~/GitHub/IODS-project/data/learning2014.csv")
+  
+  str(demonstration)
+  
+  head(demonstration)
+  #saving the dataset as csv-file in IODS-project
+  
+ 
+  

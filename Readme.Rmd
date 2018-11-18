@@ -15,7 +15,7 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r "chapter1.Rmd""}
+```{r "chapter1.Rmd"}
 The course is intended to learn different tools for analyzing data, particularly by using rstudio. All the tasks completed using R will be linked and stored in Github account. The course also uses Datacamp for excercising the R tools to learn it.
 https://github.com/bhuiyanluke/IODS-project/
 ```{r "chapter2.Rmd""}
@@ -28,5 +28,7 @@ https://github.com/bhuiyanluke/IODS-project/
 -Then commited to master in Github desktop
 -Then I can see the changes in Github repisotory
 Finally I stored all the work done in Gitbub and other people can also see my work
+
+
 
 
