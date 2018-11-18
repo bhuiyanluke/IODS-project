@@ -27,5 +27,52 @@ Finally I stored all the work done in Gitbub and other people can also see my wo
   
 summary(cars)
 ```
+```{r chapter3.Rmd
+
+Reading data file into R 
+url <- "http://s3.amazonaws.com/assets.datacamp.com/production/course_2218/datasets"
+
+# web address for math class data
+url_math <- paste(url, "student-mat.csv", sep = "/")
+
+# print out the address
+url_math
+
+# read the math class questionaire data into memory
+math <- read.table(url_math, sep = ";" , header=TRUE)
+
+# web address for portuguese class data
+url_por <- paste(url, "student-por.csv", sep ="/")
+
+# print out the address
+url_por
+
+# read the portuguese class questionaire data into memory
+por <- read.table(url_por, sep = ";", header = TRUE)
+# dimension of the data
+dim(math)
+dim(por)
+# description of the variables: the both data set has 33 vairables.
+
+# access the dplyr library
+library(dplyr)
+
+
+# common columns to use as identifiers
+join_by <- c("school","sex","age","address","famsize","Pstatus","Medu","Fedu","Mjob","Fjob","reason","nursery","internet")
+
+# join the two datasets by the selected identifiers
+math_por <- inner_join(math, por, by = join_by, suffix = c(".math", ".por"))
+
+# Strucure and dimension of the joined data set
+str(math_por)
+dim(math_por)
+
+   
+
+}
+
+
+```
 
 
