@@ -11,8 +11,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r "chapter1.Rmd"}
-lrn14 <- read.table("http://www.helsinki.fi/~kvehkala/JYTmooc/JYTOPKYS3-data.txt", sep="\t", header=TRUE)
-
 # dimension of the data
 dim(lrn14)
 

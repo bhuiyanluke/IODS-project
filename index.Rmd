@@ -34,10 +34,7 @@ Finally I stored all the work done in Gitbub and other people can also see my wo
 
 ***
 
-```{r child= "chapter3.Rmd"}
-
-Finally I stored all the work done in Gitbub and other people can also see my work
 
 
-***
+
 
