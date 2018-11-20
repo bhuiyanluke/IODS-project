@@ -34,15 +34,8 @@ Finally I stored all the work done in Gitbub and other people can also see my wo
 
 ***
 
-```{r child = "chapter2.Rmd"}
-- This week, from the begining of the lecture, I have learned using the Github and linked it to the rstudio. I had prior knowledge about rstudio but not in details. Linking the Github with rstudio was exciting. How to store the saved work in Github was very useful to me. The porcedure for storing the work in Github as follows:
--I opened the Github account
--Then fork it to the course repisotory as the instruction of the lecture
--Opened the Github desktop account
--And also cloned this with the course repisotory
--Opened the taks in rstudio and saved after editing
--Then commited to master in Github desktop
--Then I can see the changes in Github repisotory
+```{r child= "chapter3.Rmd"}
+
 Finally I stored all the work done in Gitbub and other people can also see my work
 
 
