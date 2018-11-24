@@ -1,13 +1,4 @@
----
-title: "Untitled"
-author: "Rabbil Bhuiyan"
-date: "24 November 2018"
-output: html_document
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 ```{r}
 # access the MASS package
 library(MASS)
