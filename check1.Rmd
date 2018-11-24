@@ -1,0 +1,24 @@
+---
+title: "Untitled"
+author: "Rabbil Bhuiyan"
+date: "20 November 2018"
+output: html_document
+---
+```{r chapter3}
+
+
+
+mat <- read.csv("student-mat.csv",header=TRUE, sep=";")
+
+summary(mat)
+
+dim(mat)
+
+
+
+
+
+```
+
+
+

@@ -25,9 +25,10 @@ https://github.com/bhuiyanluke/IODS-project/
 -Then I can see the changes in Github repisotory
 Finally I stored all the work done in Gitbub and other people can also see my work
   
-summary(cars)
 ```
-```{r chapter3.Rmd
+```{r child = "chapter3.Rmd"
+```{r}
+```
 
 Reading data file into R 
 url <- "http://s3.amazonaws.com/assets.datacamp.com/production/course_2218/datasets"
@@ -74,5 +75,7 @@ dim(math_por)
 
 
 ```
+# description of cluster analysis
+
 
 
