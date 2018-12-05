@@ -3,7 +3,7 @@
 # access the MASS package
 library(MASS)
 
-# load the data
+# load the dataset
 data("Boston")
 
 # explore the dataset
